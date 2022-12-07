@@ -475,7 +475,9 @@ margin-top: 50px;
     .base{
         z-index: -1;
     }
-
+    .part button {
+        width: 70%;
+    }
 }
 
 
