@@ -47,6 +47,12 @@ a:hover{
     background: black;
     transition: x.5s;
 }
+.nav-links ul i{
+    display: none;
+}
+nav .bar{
+    display: none;
+}
 .text{
     margin:100px 0px 0px 90px;
 }
@@ -366,6 +372,8 @@ border-top: 1px solid #fff;
 margin-top: 50px;
 }
 
+
+
 @media(max-width:956px){
     .hd {
         padding-left: 20px;
@@ -436,6 +444,13 @@ margin-top: 50px;
         color: white;
         margin: 20px;
         font-size: 30px;
+        display: block;
+    }
+    .nav-links ul i{
+        display: block;
+    }
+    nav .bar{
+        display: block;
     }
     label.portfolio {
         padding: 0 20px;
@@ -460,6 +475,7 @@ margin-top: 50px;
     .base{
         z-index: -1;
     }
+
 }
 
 
